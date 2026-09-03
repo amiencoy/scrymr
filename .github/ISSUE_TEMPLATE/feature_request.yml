@@ -1,0 +1,26 @@
+name: Feature request
+description: Propose a focused sentinel capability
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Community problem
+      description: Which Discord community or moderation problem should this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Proposed behavior
+      description: Describe detection, proposed response, and moderator interaction.
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Safety and privacy
+      description: What permissions, approvals, collected data, and retention are involved?
+    validations:
+      required: true
