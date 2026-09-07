@@ -1,0 +1,33 @@
+version: 1
+name: community-safe-default
+mode: dry-run
+
+principles:
+  default_deny: true
+  least_privilege: true
+  explainable_decisions: true
+  audit_every_proposal: true
+
+actions:
+  allowed:
+    - observe
+    - alert
+    - delete_message
+    - timeout_member
+    - kick_member
+    - ban_member
+  approval_required:
+    - delete_message
+    - timeout_member
+    - kick_member
+    - ban_member
+  forbidden:
+    - mass_ban
+    - modify_server_ownership
+    - expose_private_data
+
+data:
+  collect_message_content: transient
+  persist_raw_message_content: false
+  persist_credentials: false
+  cross_server_sharing: false
