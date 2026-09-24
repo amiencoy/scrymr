@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import re
 
-from screamrrrr.domain.models import Action, Finding, NormalizedEvent
+from scrymr.domain.models import Action, Finding, NormalizedEvent
 
 URL_PATTERN = re.compile(r"https?://\S+", re.IGNORECASE)
 SUSPICIOUS_TERMS = ("free nitro", "steam gift", "claim reward", "verify wallet")

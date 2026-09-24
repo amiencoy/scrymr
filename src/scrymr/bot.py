@@ -4,14 +4,14 @@ import logging
 
 import discord
 
-from screamrrrr.actions.executor import execute
-from screamrrrr.audit.logger import log_decision
-from screamrrrr.config import Settings
-from screamrrrr.detection.rules import inspect_message
-from screamrrrr.domain.models import NormalizedEvent
-from screamrrrr.policy.engine import PolicyEngine
+from scrymr.actions.executor import execute
+from scrymr.audit.logger import log_decision
+from scrymr.config import Settings
+from scrymr.detection.rules import inspect_message
+from scrymr.domain.models import NormalizedEvent
+from scrymr.policy.engine import PolicyEngine
 
-LOGGER = logging.getLogger("screamrrrr")
+LOGGER = logging.getLogger("scrymr")
 
 
 class SentinelClient(discord.Client):
@@ -25,7 +25,7 @@ class SentinelClient(discord.Client):
         self.policy = PolicyEngine.from_yaml(settings.policy_path)
 
     async def on_ready(self) -> None:
-        LOGGER.info("SCREAMRRRR connected as %s", self.user)
+        LOGGER.info("SCRYMR connected as %s", self.user)
 
     async def on_message(self, message: discord.Message) -> None:
         if message.author.bot or message.guild is None:

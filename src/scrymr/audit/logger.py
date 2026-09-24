@@ -4,8 +4,8 @@ import json
 import logging
 from dataclasses import asdict
 
-from screamrrrr.actions.executor import ExecutionResult
-from screamrrrr.domain.models import Finding, NormalizedEvent, PolicyDecision
+from scrymr.actions.executor import ExecutionResult
+from scrymr.domain.models import Finding, NormalizedEvent, PolicyDecision
 
 
 def log_decision(

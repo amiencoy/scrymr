@@ -1,7 +1,5 @@
 # SCRYMR
 
-Formerly **SCREAMRRRR**.
-
 SCRYMR is an open-source, Discord-native community security and incident-response sentinel.
 
 It observes Discord events, normalizes them, evaluates rules and heuristics, assigns risk, proposes a response, checks that response against policy, and records the result. High-impact moderation actions require human approval by default.
@@ -44,10 +42,10 @@ cp .env.example .env
 Set `DISCORD_TOKEN` in `.env`, enable the required intents in the Discord Developer Portal, then run:
 
 ```bash
-python -m screamrrrr
+python -m scrymr
 ```
 
-The Python module remains `screamrrrr` for compatibility; the project and repository are now named SCRYMR.
+The module and console command are both `scrymr`. See [migration notes](docs/MIGRATION.md) when upgrading an earlier installation.
 
 Run checks:
 

@@ -1,4 +1,4 @@
-from screamrrrr.bot import run
+from scrymr.bot import run
 
 
 def main() -> None:

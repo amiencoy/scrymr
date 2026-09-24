@@ -1,6 +1,6 @@
 # Contributing
 
-SCREAMRRRR is in pre-alpha. Small, reviewable changes with tests are preferred.
+SCRYMR is in pre-alpha. Small, reviewable changes with tests are preferred.
 
 ## Development
 

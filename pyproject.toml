@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "screamrrrr"
+name = "scrymr"
 version = "0.1.0.dev0"
 description = "Discord-native community security and incident-response sentinel"
 readme = "README.md"
@@ -22,10 +22,10 @@ dev = [
 ]
 
 [project.scripts]
-screamrrrr = "screamrrrr.__main__:main"
+scrymr = "scrymr.__main__:main"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/screamrrrr"]
+packages = ["src/scrymr"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
