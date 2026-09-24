@@ -13,3 +13,7 @@ Rename configuration keys:
 | `SCREAMRRRR_DRY_RUN` | `SCRYMR_DRY_RUN` |
 
 Old environment keys remain a deprecated fallback so existing policy paths and dry-run settings are not silently lost. Current keys take precedence, including explicit false values. `DISCORD_TOKEN` is unchanged. Module imports and service commands must be migrated before restarting.
+
+---
+
+<p align="center"><sub>Built with code, coffee, and a healthy dislike of repetitive work.</sub></p>

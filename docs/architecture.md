@@ -43,3 +43,7 @@ SCRYMR is designed as a Discord-native, event-driven sentinel. The Discord clien
 ## Future storage
 
 The starter has no database. When persistence is introduced, separate operational state from privacy-sensitive evidence, define retention per tier, and avoid storing raw message content unless a server explicitly opts in.
+
+---
+
+<p align="center"><sub>Built with code, coffee, and a healthy dislike of repetitive work.</sub></p>

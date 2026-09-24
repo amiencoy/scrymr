@@ -22,3 +22,7 @@ pytest
 - Document new data collection and retention behavior.
 
 By participating, you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+---
+
+<p align="center"><sub>Built with code, coffee, and a healthy dislike of repetitive work.</sub></p>

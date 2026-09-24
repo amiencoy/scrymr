@@ -71,3 +71,7 @@ SCRYMR is pre-alpha. Interfaces, policy schema, and detectors may change before 
 ## License
 
 A project license has not been selected yet. Until a license is added, copyright law applies and no permission to copy, modify, or distribute the code is granted.
+
+---
+
+<p align="center"><sub>Built with code, coffee, and a healthy dislike of repetitive work.</sub></p>
