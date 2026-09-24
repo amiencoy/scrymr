@@ -1,5 +1,5 @@
-from screamrrrr.detection.rules import inspect_message
-from screamrrrr.domain.models import NormalizedEvent
+from scrymr.detection.rules import inspect_message
+from scrymr.domain.models import NormalizedEvent
 
 
 def test_suspicious_link_lure_is_flagged() -> None:

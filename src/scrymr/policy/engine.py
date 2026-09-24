@@ -5,7 +5,7 @@ from typing import Any
 
 import yaml
 
-from screamrrrr.domain.models import Action, PolicyDecision
+from scrymr.domain.models import Action, PolicyDecision
 
 
 class PolicyEngine:

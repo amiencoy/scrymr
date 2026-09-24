@@ -2,7 +2,7 @@
 
 ## Supported versions
 
-SCREAMRRRR is pre-alpha. Only the latest commit on `main` is currently supported.
+SCRYMR is pre-alpha. Only the latest commit on `main` is currently supported.
 
 ## Reporting a vulnerability
 

@@ -1,5 +1,5 @@
-from screamrrrr.domain.models import Action
-from screamrrrr.policy.engine import PolicyEngine
+from scrymr.domain.models import Action
+from scrymr.policy.engine import PolicyEngine
 
 
 def test_default_deny() -> None:

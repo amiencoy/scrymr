@@ -1,6 +1,6 @@
 # Architecture
 
-SCREAMRRRR is designed as a Discord-native, event-driven sentinel. The Discord client is an adapter rather than the application core.
+SCRYMR is designed as a Discord-native, event-driven sentinel. The Discord client is an adapter rather than the application core.
 
 ## Processing path
 

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from screamrrrr.domain.models import Action, PolicyDecision
+from scrymr.domain.models import Action, PolicyDecision
 
 
 @dataclass(frozen=True, slots=True)
